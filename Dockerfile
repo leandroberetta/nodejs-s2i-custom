@@ -1,3 +1,4 @@
 FROM nodejs:10
 
 COPY run $STI_SCRIPTS_PATH/run 
+COPY env $STI_SCRIPTS_PATH/env
